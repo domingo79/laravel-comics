@@ -4,13 +4,14 @@
 
 @section('content')
 
-<h1>Comics Pages</h1>
+<section class="container">
 
+    @foreach($comics as $comic)
+    <img src="{{$comic['thumb']}}" alt="">
+    <h3>{{ $comic['series'] }}</h3>
+    @endforeach
 
-
-
-
-
+</section>
 
 
 @endsection
