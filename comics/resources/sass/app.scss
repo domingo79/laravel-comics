@@ -1,1 +1,7 @@
-//
+@import 'partials/variables';
+@import 'partials/common';
+@import 'partials/header';
+
+#main_content{
+    background-color: $bg_color;
+}
