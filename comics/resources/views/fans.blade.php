@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>Fans Pages</h1>
+<h1>Fans Pages working in progress...🚧🚧🚦🚦</h1>
 
 
 

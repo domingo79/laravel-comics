@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>News Pages</h1>
+<h1>News Pages working in progress...🚧🚧🚦🚦</h1>
 
 
 

@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>Video Pages</h1>
+<h1>Video Pages working in progress...🚧🚧🚦🚦</h1>
 
 
 

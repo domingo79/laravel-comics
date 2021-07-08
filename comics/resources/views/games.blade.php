@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>Games Pages</h1>
+<h1>Games Pages working in progress...🚧🚧🚦🚦</h1>
 
 
 

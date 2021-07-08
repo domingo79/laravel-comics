@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h1>Collectibles Pages</h1>
+<h1>Collectibles Pages working in progress...🚧🚧🚦🚦</h1>
 
 
 

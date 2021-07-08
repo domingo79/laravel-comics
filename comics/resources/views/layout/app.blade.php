@@ -51,7 +51,9 @@
         @yield('content')
     </main>
 
-    <footer id="site_footer"></footer>
+    <footer id="site_footer">
+
+    </footer>
 
 </body>
 
