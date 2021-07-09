@@ -3,9 +3,9 @@
 @section('title', 'Comics Page')
 
 @section('content')
-<h1>Comics Page</h1>
 
 <section class="container">
+    <h2>Current Series</h2>
 
     <div class="cards_content">
         @foreach($comics as $index => $comic)
@@ -27,6 +27,18 @@
         <button class="btn_full">Load more</button>
     </div>
 
+</section>
+
+<section class="icone">
+    <div class="container">
+        <ul>
+            <li><img src="../img/buy-comics-digital-comics.png" alt="">digital comics</li>
+            <li><img src="../img/buy-comics-merchandise.png" alt="">dc merchandise</li>
+            <li><img src="../img/buy-comics-subscriptions.png" alt="">subscription</li>
+            <li><img src="../img/buy-comics-shop-locator.png" alt="">comic shop locator</li>
+            <li><img src="../img/buy-dc-power-visa.svg" alt="">dc power visa</li>
+        </ul>
+    </div>
 </section>
 
 

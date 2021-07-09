@@ -4,6 +4,17 @@
 
 #main_content{
     background-color: $bg_color;
+    .container{
+        h2{
+            color: $bianco;
+            background-color: $brand_color;
+            width: 16%;
+            padding: 0.25rem 1rem;
+            text-align: center;
+            position: relative;
+            top: -15px;
+        }
+    }
 }
 .cards_content{
     width: 100%;
@@ -45,3 +56,29 @@
     }
 }
 
+.icone{
+    width: 100%;
+    height: 160px;
+    background-color: $brand_color;
+    display: flex;
+    align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            display: flex;
+            align-items: center;
+            color: $bianco;
+            text-transform: uppercase;
+            padding: 0 0.25rem;
+        }
+       img{
+            height: 80px;
+            padding: 1rem;
+        }
+        
+ 
+    }
+}
