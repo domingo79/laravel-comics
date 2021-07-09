@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\Routing\RouteCompiler;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +15,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+//--> comics rotte index e show 
+Route::get('/comics', function () {
+    $comics = config('comics.data');
+    // dd($comics);
+    return view('comics.index', compact('comics'));
+})->name('comics');
+
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics.data');
+    // dd($comics);
+    if (is_numeric($id) && $id < count($comics) && $id >= 0) {
+        $comic = $comics[$id];
+        return view('comics.show', compact('comic'));
+    } else {
+        abort(404);
+    }
+})->name('comic');
+//<-- comics rotte index e show 
+
+
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
-
-Route::get('/', function () {
-    $comics = config('comics.data');
-    // dd($comics);
-    return view('comics', compact('comics'));
-})->name('comics');
 
 Route::get('/movies', function () {
     return view('movies');

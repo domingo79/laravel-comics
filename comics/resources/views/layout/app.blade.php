@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/2c30adbff5.js" crossorigin="anonymous"></script>
     <title>DC @yield('title', 'Comics')</title>
-
+    <!-- favicon  -->
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
 
     <!-- Fonts -->
