@@ -14,8 +14,10 @@ use Symfony\Component\Routing\RouteCompiler;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
+// redirect 
+Route::get('/', function () {
+    return redirect()->route('comics');
+})->name('home');
 
 //--> comics rotte index e show 
 Route::get('/comics', function () {

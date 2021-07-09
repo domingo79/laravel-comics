@@ -4,17 +4,8 @@
 
 @section('content')
 <h1>Comics Page</h1>
-@foreach($comics as $index => $comic)
-<div class="comic">
-    <a href="{{route('comic',['id' => $index])}}">
 
-        <img src="{{$comic['thumb']}}" alt="">
-        {{ $comic['series'] }}
-    </a>
-
-</div>
-@endforeach
-<!-- <section class="container">
+<section class="container">
 
     <div class="cards_content">
         @foreach($comics as $index => $comic)
@@ -36,7 +27,7 @@
         <button class="btn_full">Load more</button>
     </div>
 
-</section> -->
+</section>
 
 
 @endsection
