@@ -6,9 +6,9 @@
                         <h2>DC COMICS</h2>
                         <ul>
                             @foreach(config('comics.menu') as $item)
+                            @if ($item['text'] !== 'Shop')
                             <li>{{$item['text']}}</li>
-                            @if ($item['text'] === 'News')
-                            @break
+                            @continue
                             @endif
                             @endforeach
                         </ul>
