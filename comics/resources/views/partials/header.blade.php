@@ -15,7 +15,9 @@
              @foreach(config('comics.menu') as $item)
              <a href="{{route($item['href'])}}" class="{{Route::currentRouteName() === $item['href'] ? 'active' : ''  }}"> {{$item['text']}} </a>
              @endforeach
-             <input type="text" name="" id="" placeholder="Serch"><i class="fas fa-search"></i>
+             <div class="search">
+                 <input type="text" name="" id="" placeholder="Serch"><i class="fas fa-search"></i>
+             </div>
          </nav>
 
          <div class="jumbo_heder">
