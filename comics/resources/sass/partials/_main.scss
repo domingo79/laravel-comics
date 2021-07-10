@@ -1,0 +1,14 @@
+#main_content{
+    background-color: $bg_color;
+    .container{
+        h2{
+            color: $bianco;
+            background-color: $brand_color;
+            width: 16%;
+            padding: 0.25rem 1rem;
+            text-align: center;
+            position: relative;
+            top: -15px;
+        }
+    }
+}

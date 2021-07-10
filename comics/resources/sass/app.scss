@@ -2,89 +2,9 @@
 @import 'partials/common';
 @import 'partials/header';
 @import 'partials/show';
-
-#main_content{
-    background-color: $bg_color;
-    .container{
-        h2{
-            color: $bianco;
-            background-color: $brand_color;
-            width: 16%;
-            padding: 0.25rem 1rem;
-            text-align: center;
-            position: relative;
-            top: -15px;
-        }
-    }
-}
-.cards_content{
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-
-.card{
-    width: 180px;
-    height: 250px;
-    padding: 1rem;
-        
-    .card_image{
-        img{
-            width: 100%;
-            height: 190px;
-            }
-        }
-        .card_title{
-            width: 100%;
-            height: 60px;
-            padding: 0.5rem 0;
-            color: $bianco;
-        }
-    }
-}
-.btn{
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding: 2rem 0;
-
-        .btn_full{
-        color: $bianco;
-        background-color: $brand_color;
-        padding: 0.5rem 2.5rem;
-        text-transform: uppercase;
-        cursor: pointer;
-    }
-}
-
-.icone{
-    width: 100%;
-    height: 150px;
-    background-color: $brand_color;
-    display: flex;
-    align-items: center;
-    ul{
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-
-        li{
-            display: flex;
-            align-items: center;
-            color: $bianco;
-            text-transform: uppercase;
-            padding: 0 0.25rem;
-        }
-       img{
-            height: 80px;
-            padding: 1rem;
-        }
-        
- 
-    }
-}
+@import 'partials/main';
+@import 'partials/card';
+@import 'partials/btn';
+@import 'partials/section-icone';
 @import 'partials/footer';
 
