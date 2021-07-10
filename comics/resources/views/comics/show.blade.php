@@ -23,7 +23,7 @@
         </div>
         <div class="comic_advertisement">
             <h3>ADVERTISEMENT</h3>
-            <img src="../img/adv.jpg" alt="">
+            <img src="{{asset('img/adv.jpg')}}" alt="">
         </div>
     </div>
 </div>
@@ -85,10 +85,10 @@
         </div>
     </div>
     <div class="scheda_footer">
-        <span>DIGITAL COMIC <img src="../img/buy-comics-digital-comics.png" alt=""></span>
-        <span>SHOP DC <img src="../img/buy-comics-digital-comics.png" alt=""></span>
-        <span>COMIC SHOP LOCATOR <img src="../img/buy-comics-digital-comics.png" alt=""></span>
-        <span>SUBSCRIPTION <img src="../img/buy-comics-digital-comics.png" alt=""></span>
+        <span>DIGITAL COMIC <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt=""></span>
+        <span>SHOP DC <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt=""></span>
+        <span>COMIC SHOP LOCATOR <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt=""></span>
+        <span>SUBSCRIPTION <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt=""></span>
     </div>
 </div>
 @endsection
