@@ -17,7 +17,7 @@
                 </a>
             </div>
             <div class="card_title">
-                <h5>{{ $comic['series'] }}</h5>
+                <h5>{{ $comic['series']}}</h5>
             </div>
         </div>
         @endforeach

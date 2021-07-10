@@ -109,11 +109,11 @@
 
                     <ul>
                         <li><span>FOLLOW US</span></li>
-                        <li> <img src="./img/footer-facebook.png" alt=""></li>
-                        <li> <img src="./img/footer-twitter.png" alt=""></li>
-                        <li> <img src="./img/footer-youtube.png" alt=""></li>
-                        <li> <img src="./img/footer-pinterest.png" alt=""></li>
-                        <li> <img src="./img/footer-periscope.png" alt=""></li>
+                        <li> <img src="../img/footer-facebook.png" alt=""></li>
+                        <li> <img src="../img/footer-twitter.png" alt=""></li>
+                        <li> <img src="../img/footer-youtube.png" alt=""></li>
+                        <li> <img src="../img/footer-pinterest.png" alt=""></li>
+                        <li> <img src="../img/footer-periscope.png" alt=""></li>
                     </ul>
                 </div>
 
